@@ -7,10 +7,13 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 ##### A. EDIT
 > URL: aaa/aaa/aaa
+>
 > Method: POST
+>
 > BODY: 
+>
 > HEADER: 
-
+>
 API: 
 ~~~ 
 {
@@ -44,10 +47,13 @@ API:
 
 ##### B. DELETE
 > URL: aaa/aaa/aaa
+>
 > Method: DELETE
+>
 > BODY: 
+>
 > HEADER: 
-
+>
 RESPONCE: 
 ~~~ 
 {
