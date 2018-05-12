@@ -17,11 +17,11 @@ database.
 
 **Condition** : If the Account exists.
 
-**Code** : `{
+**Code** : ~~~ {
     "status": true,
     "message": "Attendance Cycle setting deleted successfully!",
     "data": null
-}`
+} ~~~
 
 **Content** : `{}`
 
