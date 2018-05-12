@@ -1,8 +1,8 @@
-# Delete User's Account
+# Delete Attendance's Cycle
 
-Delete the Account of the Authenticated User if they are Owner.
+Delete the Cycle of the Authenticated User if they are Owner.
 
-**URL** : `/api/accounts/:pk/`
+**URL** : `/attendance/settings/deleteattendancecycle/29/`
 
 **URL Parameters** : `pk=[integer]` where `pk` is the ID of the Account in the
 database.
@@ -11,15 +11,17 @@ database.
 
 **Auth required** : YES
 
-**Permissions required** : User is Account Owner
-
 **Data** : `{}`
 
 ## Success Response
 
 **Condition** : If the Account exists.
 
-**Code** : `204 NO CONTENT`
+**Code** : `{
+    "status": true,
+    "message": "Attendance Cycle setting deleted successfully!",
+    "data": null
+}`
 
 **Content** : `{}`
 
