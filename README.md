@@ -21,8 +21,8 @@ API:
     {{#repeat 2}}
     {
       "id": {{@index}},
-      "name": "{{firstName}} {{lastName}}",
-      "work": "{{company}}",
+      "name": "{{firstName}} {{lastName}}", // You can write comment here
+      "work": "{{company}}",                // Yiu can write constats here
       "email": "{{email}}",
       "dob": "{{date '1900' '2000' 'YYYY'}}",
       "address": "{{int 1 100}} {{street}}",
