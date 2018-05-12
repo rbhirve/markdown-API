@@ -7,7 +7,8 @@ URL: aaa/aaa/aaa
 Method: POST
 
 API: 
-~~~ {
+~~~ 
+{
   "users": [
     {{#repeat 2}}
     {
@@ -33,7 +34,8 @@ API:
   },
   "price": "${{int 0 99999 '0,0'}}"
 }
-```
-#Hello
+~~~
+### 
+A common use of Dummy JSON is to create a mock API service that returns random data. Here's a quick example using Express:
 
 
